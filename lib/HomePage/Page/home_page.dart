@@ -22,7 +22,6 @@ class _HomePageState extends State<HomePage> {
               children: [
                 AppBarWidget(),
                 Expanded(
-                  // Burada Expanded kullanarak alanı sınırlıyoruz.
                   child: SingleChildScrollView(
                     child: Column(
                       children: [
@@ -42,7 +41,6 @@ class _HomePageState extends State<HomePage> {
 }
 
 class NoGlowScrollBehavior extends ScrollBehavior {
-  @override
   Widget buildViewportChrome(
       BuildContext context, Widget child, AxisDirection axisDirection) {
     return child;
