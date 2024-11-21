@@ -1,0 +1,64 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "Emlak",
+            "description": "Konut, İş Yeri, Arsa, Konut Projeleri, Bina, Devre Mülk, Turistik Alan",
+            "icon": "assets/icons/house_icon.png"
+        },
+        {
+            "id": 2,
+            "name": "Vasıta",
+            "description": "Otomobil, Arazi, SUV & Pickup, Motosiklet, Minivan & Panelvan, Ticari Araç",
+            "icon": "assets/icons/house_icon.png"
+        },
+        {
+            "id": 3,
+            "name": "Yedek Parça, Aksesuar, Donanım & Tuning",
+            "description": "Otomotiv Ekipmanları, Motosiklet Ekipmanları, Deniz Aracı Ekipmanları, Yedek Parça",
+            "icon": "assets/icons/house_icon.png"
+        },
+        {
+            "id": 4,
+            "name": "İkinci El ve Sıfır Alışveriş",
+            "description": "Bilgisayar, Cep Telefonu, Fotoğraf & Kamera Makinesi, Tablet",
+            "icon": "assets/icons/house_icon.png"
+        },
+        {
+            "id": 5,
+            "name": "İş Makineleri & Sanayi",
+            "description": "İş Makineleri, Tarım Makineleri, Elektrik & Enerji",
+            "icon": "assets/icons/house_icon.png"
+        },
+        {
+            "id": 6,
+            "name": "Ustalar ve Hizmetler",
+            "description": "Ev Tadilat & Dekorasyon, Nakliye, Araç Servis & Bakım, Tamir",
+            "icon": "assets/icons/house_icon.png"
+        },
+        {
+            "id": 7,
+            "name": "Özel Ders Verenler",
+            "description": "Lise & Üniversite, İlkokul & Ortaokul, Yabancı Dil, Bilgisayar Eğitimi",
+            "icon": "assets/icons/house_icon.png"
+        },
+        {
+            "id": 8,
+            "name": "İş İlanları",
+            "description": "Avukatlık & Hukuki Danışmanlık, Eğitim, Eğlence & Aktivite",
+            "icon": "assets/icons/house_icon.png"
+        },
+        {
+            "id": 9,
+            "name": "Hayvanlar Alemi",
+            "description": "Evcil Hayvanlar, Akvaryum Balıkları, Aksesuarlar, Bakım Ürünleri, Yem",
+            "icon": "assets/icons/house_icon.png"
+        },
+        {
+            "id": 10,
+            "name": "Yardımcı Arayanlar",
+            "description": "Bebek & Çocuk Bakıcısı, Yaşlı & Hasta Bakıcısı, Temizlikçi & Yardımcı",
+            "icon": "assets/icons/house_icon.png"
+        }
+    ]
+}
