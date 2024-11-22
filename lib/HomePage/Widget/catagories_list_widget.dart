@@ -7,10 +7,10 @@ class CatagoriesListWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    Size size = MediaQuery.of(context).size; // Ekran boyutunu alıyoruz
+    Size size = MediaQuery.of(context).size;
     return Container(
       width: size.width,
-      height: size.height / 1.5, // Yükseklik belirliyoruz
+      height: size.height / 1.5,
       color: Colors.white,
       child: FutureBuilder<List<Category>>(
         future: CategoryService().fetchCategories(),
@@ -33,7 +33,7 @@ class CatagoriesListWidget extends StatelessWidget {
                 child: ListView.builder(
                   padding: const EdgeInsets.all(0),
                   shrinkWrap: true,
-                  physics: const AlwaysScrollableScrollPhysics(),
+                  physics: const ClampingScrollPhysics(),
                   itemCount: categories.length,
                   itemBuilder: (context, index) {
                     final category = categories[index];
@@ -42,7 +42,7 @@ class CatagoriesListWidget extends StatelessWidget {
                       child: Row(
                         children: [
                           Image.asset(category.icon, scale: 10),
-                          SizedBox(width: 15),
+                          const SizedBox(width: 15),
                           Expanded(
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
@@ -51,7 +51,7 @@ class CatagoriesListWidget extends StatelessWidget {
                                   category.name,
                                   maxLines: 1,
                                   overflow: TextOverflow.ellipsis,
-                                  style: TextStyle(
+                                  style: const TextStyle(
                                       fontWeight: FontWeight.w400,
                                       fontSize: 17),
                                 ),
@@ -67,8 +67,8 @@ class CatagoriesListWidget extends StatelessWidget {
                               ],
                             ),
                           ),
-                          SizedBox(width: 15),
-                          Icon(
+                          const SizedBox(width: 15),
+                          const Icon(
                             Icons.navigate_next_rounded,
                             color: Colors.grey,
                             size: 30,
