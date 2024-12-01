@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:sahibinden_clone/HomePage/Page/home_page.dart';
+import 'package:sahibinden_clone/PropertyCatagoriesPage/Page/property_first_page.dart';
 import 'package:sahibinden_clone/models/category.dart';
 import 'package:sahibinden_clone/services/category_service.dart';
 
@@ -24,20 +26,50 @@ class CatagoriesListWidget extends StatelessWidget {
           } else {
             final categories = snapshot.data!;
 
-            return InkWell(
-              onTap: () {
-                print("DSAKMDASDAS");
-              },
-              child: Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 10),
-                child: ListView.builder(
-                  padding: const EdgeInsets.all(0),
-                  shrinkWrap: true,
-                  physics: const ClampingScrollPhysics(),
-                  itemCount: categories.length,
-                  itemBuilder: (context, index) {
-                    final category = categories[index];
-                    return Padding(
+            return Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 10),
+              child: ListView.builder(
+                padding: const EdgeInsets.all(0),
+                shrinkWrap: true,
+                physics: const ClampingScrollPhysics(),
+                itemCount: categories.length,
+                itemBuilder: (context, index) {
+                  final category = categories[index];
+
+                  void navigateToPage(int index) {
+                    switch (index) {
+                      case 0:
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => const PropertyFirstPage(),
+                          ),
+                        );
+                        break;
+                      case 1:
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => const HomePage(),
+                          ),
+                        );
+                        break;
+                      default:
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => const HomePage(),
+                          ),
+                        );
+                        break;
+                    }
+                  }
+
+                  return InkWell(
+                    onTap: () {
+                      navigateToPage(index);
+                    },
+                    child: Padding(
                       padding: const EdgeInsets.symmetric(vertical: 4),
                       child: Row(
                         children: [
@@ -75,9 +107,9 @@ class CatagoriesListWidget extends StatelessWidget {
                           )
                         ],
                       ),
-                    );
-                  },
-                ),
+                    ),
+                  );
+                },
               ),
             );
           }

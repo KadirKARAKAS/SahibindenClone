@@ -7,15 +7,15 @@ class CategoryService {
     try {
       final String response =
           await rootBundle.loadString('assets/data/categories.json');
-      print('JSON Yükleme Başarılı: $response'); // JSON verisini ekrana yazdır
+      print('JSON Yükleme Başarılı: $response');
       final data = json.decode(response);
-      print('Decoded JSON: $data'); // Decoded veriyi yazdır
+      print('Decoded JSON: $data');
       return (data['categories'] as List)
           .map((item) => Category.fromJson(item))
           .toList();
     } catch (e) {
       print("Error loading categories: $e");
-      return []; // Hata durumunda boş liste döndür
+      return [];
     }
   }
 }
