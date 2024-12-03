@@ -39,61 +39,61 @@ class PropertyLostExtraWidget extends StatelessWidget {
         itemCount: titles.length,
         itemBuilder: (context, index) {
           void navigateToPage(int index) {
-            switch (index) {
-              case 0:
-                pageTitle = titles[index];
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => PropertyDetailCatagoriesPage(),
-                  ),
-                );
-                break;
-              case 1:
-                pageTitle = titles[index];
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => PropertyDetailCatagoriesPage(),
-                  ),
-                );
-                break;
-              case 3:
-                pageTitle = titles[index];
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => PropertyDetailCatagoriesPage(),
-                  ),
-                );
-                break;
-              case 4:
-                pageTitle = titles[index];
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => PropertyDetailCatagoriesPage(),
-                  ),
-                );
-                break;
-              case 5:
-                pageTitle = titles[index];
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => PropertyDetailCatagoriesPage(),
-                  ),
-                );
-                break;
-              default:
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => PropertyDetailCatagoriesPage(),
-                  ),
-                );
-                break;
-            }
+            // switch (index) {
+            //   case 0:
+            //     pageTitle = titles[index];
+            //     Navigator.push(
+            //       context,
+            //       MaterialPageRoute(
+            //         builder: (context) => PropertyDetailCatagoriesPage(),
+            //       ),
+            //     );
+            //     break;
+            //   case 1:
+            //     pageTitle = titles[index];
+            //     Navigator.push(
+            //       context,
+            //       MaterialPageRoute(
+            //         builder: (context) => PropertyDetailCatagoriesPage(),
+            //       ),
+            //     );
+            //     break;
+            //   case 3:
+            //     pageTitle = titles[index];
+            //     Navigator.push(
+            //       context,
+            //       MaterialPageRoute(
+            //         builder: (context) => PropertyDetailCatagoriesPage(),
+            //       ),
+            //     );
+            //     break;
+            //   case 4:
+            //     pageTitle = titles[index];
+            //     Navigator.push(
+            //       context,
+            //       MaterialPageRoute(
+            //         builder: (context) => PropertyDetailCatagoriesPage(),
+            //       ),
+            //     );
+            //     break;
+            //   case 5:
+            //     pageTitle = titles[index];
+            //     Navigator.push(
+            //       context,
+            //       MaterialPageRoute(
+            //         builder: (context) => PropertyDetailCatagoriesPage(),
+            //       ),
+            //     );
+            //     break;
+            //   default:
+            //     Navigator.push(
+            //       context,
+            //       MaterialPageRoute(
+            //         builder: (context) => PropertyDetailCatagoriesPage(),
+            //       ),
+            //     );
+            //     break;
+            // }
           }
 
           return PropertyListItem(
