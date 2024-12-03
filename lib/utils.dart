@@ -17,3 +17,5 @@ class AppImages {
     'assets/images/image15.png',
   ];
 }
+
+String pageTitle = "";

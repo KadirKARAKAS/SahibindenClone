@@ -4,14 +4,15 @@ import 'package:intl/intl.dart';
 import 'package:sahibinden_clone/PropertyCatagoriesPage/Page/property_lost_extra_page.dart';
 import 'package:sahibinden_clone/utils.dart';
 
-class PropertyDetailCatagoriesWidget extends StatelessWidget {
-  PropertyDetailCatagoriesWidget({Key? key}) : super(key: key);
+class PropertyDetailExtraWidget extends StatelessWidget {
+  PropertyDetailExtraWidget({Key? key}) : super(key: key);
 
   final List<String> titles = [
-    "Satılık",
-    "Kiralık",
-    "Turistik Günlük Kiralık",
-    "Devren Satılık Konut",
+    "Alçı & Kartonpiyer",
+    "Mutfak, Banyo Yenileme",
+    "Mobilya",
+    "Beyaz Eşya",
+    "Küçük Ev Aletleri"
   ];
 
   String generateRandomNumber() {

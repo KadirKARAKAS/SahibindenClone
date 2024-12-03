@@ -2,18 +2,17 @@ import 'package:flutter/material.dart';
 import 'package:sahibinden_clone/GlobalWidgets/catagories_appbar_widget.dart';
 import 'package:sahibinden_clone/PropertyCatagoriesPage/Widget/property_detail_catagories_widget.dart';
 import 'package:sahibinden_clone/PropertyCatagoriesPage/Widget/property_detail_extra_widget.dart';
+import 'package:sahibinden_clone/PropertyCatagoriesPage/Widget/property_lost_extra_widget.dart';
 import 'package:sahibinden_clone/utils.dart';
 
-class PropertyDetailCatagoriesPage extends StatefulWidget {
-  const PropertyDetailCatagoriesPage({super.key});
+class PropertyLostExtraPage extends StatefulWidget {
+  const PropertyLostExtraPage({super.key});
 
   @override
-  State<PropertyDetailCatagoriesPage> createState() =>
-      _PropertyDetailCatagoriesPageState();
+  State<PropertyLostExtraPage> createState() => _PropertyLostExtraPageState();
 }
 
-class _PropertyDetailCatagoriesPageState
-    extends State<PropertyDetailCatagoriesPage> {
+class _PropertyLostExtraPageState extends State<PropertyLostExtraPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -22,9 +21,7 @@ class _PropertyDetailCatagoriesPageState
           children: [
             CatagoriesAppbarWidget(),
             pageFirstTextWidget(),
-            PropertyDetailCatagoriesWidget(),
-            pageSecondTextWidget(),
-            PropertyDetailExtraWidget(),
+            PropertyLostExtraWidget(),
           ],
         ),
       ),

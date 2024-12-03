@@ -1,17 +1,23 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:sahibinden_clone/PropertyCatagoriesPage/Page/property_lost_extra_page.dart';
+import 'package:sahibinden_clone/PropertyCatagoriesPage/Page/property_detail_catagories_page.dart';
 import 'package:sahibinden_clone/utils.dart';
 
-class PropertyDetailCatagoriesWidget extends StatelessWidget {
-  PropertyDetailCatagoriesWidget({Key? key}) : super(key: key);
+class PropertyLostExtraWidget extends StatelessWidget {
+  PropertyLostExtraWidget({Key? key}) : super(key: key);
 
   final List<String> titles = [
-    "Satılık",
-    "Kiralık",
-    "Turistik Günlük Kiralık",
-    "Devren Satılık Konut",
+    "Daire",
+    "Rezidans",
+    "Müstakil Ev",
+    "Villa",
+    "Çiftlik Evi",
+    "Köşk & Konak",
+    "Yalı",
+    "Yalı Dairesi",
+    "Yazlık",
+    "Kooperatif"
   ];
 
   String generateRandomNumber() {
@@ -26,7 +32,7 @@ class PropertyDetailCatagoriesWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
     return SizedBox(
-      height: size.height / 3.9,
+      height: size.height / 1.63,
       child: ListView.builder(
         physics: NeverScrollableScrollPhysics(),
         padding: EdgeInsets.all(0),
@@ -39,7 +45,7 @@ class PropertyDetailCatagoriesWidget extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => PropertyLostExtraPage(),
+                    builder: (context) => PropertyDetailCatagoriesPage(),
                   ),
                 );
                 break;
@@ -48,7 +54,7 @@ class PropertyDetailCatagoriesWidget extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => PropertyLostExtraPage(),
+                    builder: (context) => PropertyDetailCatagoriesPage(),
                   ),
                 );
                 break;
@@ -57,7 +63,7 @@ class PropertyDetailCatagoriesWidget extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => PropertyLostExtraPage(),
+                    builder: (context) => PropertyDetailCatagoriesPage(),
                   ),
                 );
                 break;
@@ -66,7 +72,7 @@ class PropertyDetailCatagoriesWidget extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => PropertyLostExtraPage(),
+                    builder: (context) => PropertyDetailCatagoriesPage(),
                   ),
                 );
                 break;
@@ -75,7 +81,7 @@ class PropertyDetailCatagoriesWidget extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => PropertyLostExtraPage(),
+                    builder: (context) => PropertyDetailCatagoriesPage(),
                   ),
                 );
                 break;
@@ -83,7 +89,7 @@ class PropertyDetailCatagoriesWidget extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => PropertyLostExtraPage(),
+                    builder: (context) => PropertyDetailCatagoriesPage(),
                   ),
                 );
                 break;

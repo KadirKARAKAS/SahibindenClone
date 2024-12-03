@@ -2,6 +2,7 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:sahibinden_clone/PropertyCatagoriesPage/Page/property_detail_catagories_page.dart';
+import 'package:sahibinden_clone/utils.dart';
 
 class PropertyCatagoriesWidget extends StatelessWidget {
   PropertyCatagoriesWidget({Key? key}) : super(key: key);
@@ -40,6 +41,7 @@ class PropertyCatagoriesWidget extends StatelessWidget {
           void navigateToPage(int index) {
             switch (index) {
               case 0:
+                pageTitle = titles[index];
                 Navigator.push(
                   context,
                   MaterialPageRoute(
@@ -48,6 +50,34 @@ class PropertyCatagoriesWidget extends StatelessWidget {
                 );
                 break;
               case 1:
+                pageTitle = titles[index];
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => PropertyDetailCatagoriesPage(),
+                  ),
+                );
+                break;
+              case 3:
+                pageTitle = titles[index];
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => PropertyDetailCatagoriesPage(),
+                  ),
+                );
+                break;
+              case 4:
+                pageTitle = titles[index];
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => PropertyDetailCatagoriesPage(),
+                  ),
+                );
+                break;
+              case 5:
+                pageTitle = titles[index];
                 Navigator.push(
                   context,
                   MaterialPageRoute(
