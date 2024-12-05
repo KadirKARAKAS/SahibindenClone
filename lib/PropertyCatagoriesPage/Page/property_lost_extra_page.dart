@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:sahibinden_clone/GlobalWidgets/catagories_appbar_widget.dart';
-import 'package:sahibinden_clone/PropertyCatagoriesPage/Widget/property_detail_catagories_widget.dart';
-import 'package:sahibinden_clone/PropertyCatagoriesPage/Widget/property_detail_extra_widget.dart';
 import 'package:sahibinden_clone/PropertyCatagoriesPage/Widget/property_lost_extra_widget.dart';
 import 'package:sahibinden_clone/utils.dart';
 
