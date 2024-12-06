@@ -1,0 +1,67 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "MAVİ IŞIK'DAN SİTE İÇİNDE ŞIK VE MİMARİ TASARIMLI 1+1 DAİRE !!!",
+            "description": "Konut, İş Yeri, Arsa, Konut Projeleri, Bina, Devre Mülk, Turistik Alan",
+            "price": "1.120.000 TL",
+            "city": "İstanbul, Esenyurt"
+        },
+        {
+            "id": 2,
+            "name": "BEYLİKDÜZÜNDE GENİŞ PEYZAJLI HAVUZLU SİTEDE EBEVEYN BANYOLU 3+1",
+            "description": "Konut, İş Yeri, Arsa, Konut Projeleri, Bina, Devre Mülk, Turistik Alan",
+            "price": "4.750.000 TL",
+            "city": "Sakarya, Karasu"
+        },
+        {
+            "id": 3,
+            "name": "SAHİBİNDEN HAVUZLU GÜVENLİKTE SİTE İÇİ 2+1 ULTRA LÜKS DAİRE !!!!",
+            "description": "Konut, İş Yeri, Arsa, Konut Projeleri, Bina, Devre Mülk, Turistik Alan",
+            "price": "1.799.999 TL",
+            "city": "İstanbul, Kadıköy"
+        },
+        {
+            "id": 4,
+            "name": "ARTI'dan TEK YETKİLİ İdealtepe'de 2005 Yapımı Binada Ferah 2+1",
+            "description": "Konut, İş Yeri, Arsa, Konut Projeleri, Bina, Devre Mülk, Turistik Alan",
+            "price": "4.200.000 TL",
+            "city": "İstanbul, Maltepe"
+        },
+        {
+            "id": 5,
+            "name": "TACİNDE 3+1 SATILIK ARA KAT LÜKS DAİRE",
+            "description": "Konut, İş Yeri, Arsa, Konut Projeleri, Bina, Devre Mülk, Turistik Alan",
+            "price": "3.400.000 TL",
+            "city": "Aksaray, Merkez"
+        },
+        {
+            "id": 6,
+            "name": "EMSALSİZ FİYATA KREDİYE UYGUN 3+1 GENİŞ ARA KAT KUPON DAİRE",
+            "description": "Konut, İş Yeri, Arsa, Konut Projeleri, Bina, Devre Mülk, Turistik Alan",
+            "price": "2.100.000 TL",
+            "city": "Bursa, Mudanya"
+        },
+        {
+            "id": 7,
+            "name": "BELİKDÜZÜ MEHAL YAPI YÜKSEK KİRA GETİRİLİ BAHÇELİ BAH.E KATI !!",
+            "description": "Konut, İş Yeri, Arsa, Konut Projeleri, Bina, Devre Mülk, Turistik Alan",
+            "price": "1.230.000 TL",
+            "city": "İstanbul, Esenyurt"
+        },
+        {
+            "id": 8,
+            "name": "ACİLL 2.5+1 YÜKSEK GİRİŞ DAİRE",
+            "description": "Konut, İş Yeri, Arsa, Konut Projeleri, Bina, Devre Mülk, Turistik Alan",
+            "price": "2.100.000 TL",
+            "city": "Batman, Merkez"
+        },
+        {
+            "id": 9,
+            "name": "ÖZEL FİYAT KREDİYE UYGUN KAMPÜS KARŞISI YATIRIMLIK 1+1",
+            "description": "Konut, İş Yeri, Arsa, Konut Projeleri, Bina, Devre Mülk, Turistik Alan",
+            "price": "1.450.000 TL",
+            "city": "İzmir, Buca"
+        }
+    ]
+}

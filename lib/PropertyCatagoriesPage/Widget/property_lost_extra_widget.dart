@@ -2,7 +2,6 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:sahibinden_clone/PropertyAdvertisedPage/Page/property_advertised_page.dart';
-import 'package:sahibinden_clone/PropertyCatagoriesPage/Page/property_detail_catagories_page.dart';
 import 'package:sahibinden_clone/utils.dart';
 
 class PropertyLostExtraWidget extends StatelessWidget {

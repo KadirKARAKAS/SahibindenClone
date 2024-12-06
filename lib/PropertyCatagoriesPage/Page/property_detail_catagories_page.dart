@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sahibinden_clone/GlobalWidgets/catagories_appbar_widget.dart';
+import 'package:sahibinden_clone/PropertyAdvertisedPage/Page/property_advertised_page.dart';
 import 'package:sahibinden_clone/PropertyCatagoriesPage/Widget/property_detail_catagories_widget.dart';
 import 'package:sahibinden_clone/PropertyCatagoriesPage/Widget/property_detail_extra_widget.dart';
 import 'package:sahibinden_clone/utils.dart';
@@ -36,16 +37,24 @@ class _PropertyDetailCatagoriesPageState
           Align(
               alignment: Alignment.centerLeft,
               child: Padding(
-                padding: const EdgeInsets.only(left: 15, top: 10, bottom: 10),
-                child: Text(
-                  "Tüm \"${pageTitle}\" İlanları",
-                  style: const TextStyle(
-                    fontSize: 18,
-                    fontWeight: FontWeight.w400,
-                    color: Color.fromRGBO(24, 94, 145, 1),
-                  ),
-                ),
-              )),
+                  padding: const EdgeInsets.only(left: 15, top: 10, bottom: 10),
+                  child: InkWell(
+                    onTap: () {
+                      Navigator.pushReplacement(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => PropertyAdvertisedPage(),
+                          ));
+                    },
+                    child: Text(
+                      "Tüm \"${pageTitle}\" İlanları",
+                      style: const TextStyle(
+                        fontSize: 18,
+                        fontWeight: FontWeight.w400,
+                        color: Color.fromRGBO(24, 94, 145, 1),
+                      ),
+                    ),
+                  ))),
           const Divider(
             height: 5,
           )

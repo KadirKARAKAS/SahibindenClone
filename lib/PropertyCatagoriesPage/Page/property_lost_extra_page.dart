@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sahibinden_clone/GlobalWidgets/catagories_appbar_widget.dart';
+import 'package:sahibinden_clone/PropertyAdvertisedPage/Page/property_advertised_page.dart';
 import 'package:sahibinden_clone/PropertyCatagoriesPage/Widget/property_lost_extra_widget.dart';
 import 'package:sahibinden_clone/utils.dart';
 
@@ -30,8 +31,14 @@ class _PropertyLostExtraPageState extends State<PropertyLostExtraPage> {
         children: [
           Align(
               alignment: Alignment.centerLeft,
-              child: Padding(
-                padding: const EdgeInsets.only(left: 15, top: 10, bottom: 10),
+              child: InkWell(
+                onTap: () {
+                  Navigator.pushReplacement(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => PropertyAdvertisedPage(),
+                      ));
+                },
                 child: Text(
                   "Tüm \"${pageTitle}\" İlanları",
                   style: const TextStyle(
