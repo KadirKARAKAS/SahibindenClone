@@ -13,3 +13,4 @@ class AppImages {
 }
 
 String pageTitle = "";
+int indexx = 0;
