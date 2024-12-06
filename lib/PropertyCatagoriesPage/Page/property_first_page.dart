@@ -3,7 +3,6 @@ import 'package:sahibinden_clone/GlobalWidgets/catagories_appbar_widget.dart';
 import 'package:sahibinden_clone/PropertyAdvertisedPage/Page/property_advertised_page.dart';
 import 'package:sahibinden_clone/PropertyCatagoriesPage/Widget/property_catagories_widget.dart';
 import 'package:sahibinden_clone/PropertyCatagoriesPage/Widget/property_extra_catagories_widget.dart';
-import 'package:sahibinden_clone/utils.dart';
 
 class PropertyFirstPage extends StatefulWidget {
   const PropertyFirstPage({super.key});
