@@ -33,11 +33,7 @@ class _PropertyAdvertisedPageState extends State<PropertyAdvertisedPage> {
           ),
           const Expanded(
             child: SingleChildScrollView(
-              child: Column(
-                children: [
-                  PropertyAdvertisedListWidget(),
-                ],
-              ),
+              child: PropertyAdvertisedListWidget(),
             ),
           ),
         ],

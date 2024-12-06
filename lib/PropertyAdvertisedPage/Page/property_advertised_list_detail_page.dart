@@ -25,9 +25,17 @@ class _PropertyAdvertisedListDetailPageState
         body: Column(
           children: [
             AdvartisedAppbarDetailWidget(),
-            PropertyAdvertisedListDetailWidget(
-              advertisedInfo: widget.advertisedInfo,
-              imagePath: AppImages.images[indexx],
+            Expanded(
+              child: SingleChildScrollView(
+                child: Column(
+                  children: [
+                    PropertyAdvertisedListDetailWidget(
+                      advertisedInfo: widget.advertisedInfo,
+                      imagePath: AppImages.images[indexx],
+                    ),
+                  ],
+                ),
+              ),
             )
           ],
         ));

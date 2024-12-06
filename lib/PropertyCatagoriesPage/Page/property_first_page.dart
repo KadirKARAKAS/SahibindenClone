@@ -73,7 +73,7 @@ class _PropertyFirstPageState extends State<PropertyFirstPage> {
                           ));
                     },
                     child: Text(
-                      "Tüm \"${pageTitle}\" İlanları",
+                      "Tüm Emlak İlanları",
                       style: const TextStyle(
                         fontSize: 18,
                         fontWeight: FontWeight.w400,

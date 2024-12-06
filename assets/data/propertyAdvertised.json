@@ -3,63 +3,63 @@
         {
             "id": 1,
             "name": "MAVİ IŞIK'DAN SİTE İÇİNDE ŞIK VE MİMARİ TASARIMLI 1+1 DAİRE !!!",
-            "description": "Konut, İş Yeri, Arsa, Konut Projeleri, Bina, Devre Mülk, Turistik Alan",
+            "description": "İstanbul’un Esenyurt bölgesinde, modern ve şık mimarisiyle öne çıkan bu 1+1 daire, yaşam konforunu arayanlar için mükemmel bir seçenek. Site içerisinde güvenlikli, sosyal alanlarıyla zenginleştirilmiş bu daire, hem estetik hem de pratik tasarımıyla dikkat çekiyor. Yüksek kaliteli malzemelerle inşa edilmiş olup, şehir hayatının karmaşasından uzak ama ulaşım kolaylığı sağlayan konumuyla ideal.",
             "price": "1.120.000 TL",
             "city": "İstanbul, Esenyurt"
         },
         {
             "id": 2,
             "name": "BEYLİKDÜZÜNDE GENİŞ PEYZAJLI HAVUZLU SİTEDE EBEVEYN BANYOLU 3+1",
-            "description": "Konut, İş Yeri, Arsa, Konut Projeleri, Bina, Devre Mülk, Turistik Alan",
+            "description": "Beylikdüzü’nün sakin ve huzurlu mahallesinde yer alan bu lüks 3+1 daire, geniş peyzajlı havuzlu bir sitede yer alıyor. Ebeveyn banyosu, geniş odaları ve modern iç mekan tasarımıyla öne çıkıyor. Etrafındaki yeşil alanlar ve sosyal olanaklar, ailenizle rahat bir yaşam alanı sunuyor. İstanbul’un önemli ulaşım noktalarına yakın, aynı zamanda prestijli ve konforlu bir yaşam arayanlar için ideal.",
             "price": "4.750.000 TL",
             "city": "Sakarya, Karasu"
         },
         {
             "id": 3,
             "name": "SAHİBİNDEN HAVUZLU GÜVENLİKTE SİTE İÇİ 2+1 ULTRA LÜKS DAİRE !!!!",
-            "description": "Konut, İş Yeri, Arsa, Konut Projeleri, Bina, Devre Mülk, Turistik Alan",
+            "description": "Kadıköy'ün en prestijli bölgelerinden birinde, havuzlu ve güvenlikli site içinde yer alan bu ultra lüks 2+1 daire, her detayıyla göz kamaştırıyor. Yüksek kaliteli iç mekan özellikleri, geniş yaşam alanları ve modern tasarımıyla konforlu bir yaşam sunuyor. Site içinde sunduğu sosyal imkanlarla da keyifli bir yaşam deneyimi vadediyor.",
             "price": "1.799.999 TL",
             "city": "İstanbul, Kadıköy"
         },
         {
             "id": 4,
-            "name": "ARTI'dan TEK YETKİLİ İdealtepe'de 2005 Yapımı Binada Ferah 2+1",
-            "description": "Konut, İş Yeri, Arsa, Konut Projeleri, Bina, Devre Mülk, Turistik Alan",
+            "name": "ART'dan TEK YETKİLİ İdealtepe'de 2005 Yapımı Binada Ferah 2+1",
+            "description": "İstanbul'un İdealtepe semtinde yer alan bu ferah 2+1 daire, 2005 yılında inşa edilmiş modern bir binada yer alıyor. Ferah iç mekanları, geniş pencereleri ve modern tasarımıyla her ihtimale karşı konforlu bir yaşam sunuyor. Hem ulaşım açısından hem de çevresindeki sosyal olanaklarla avantajlı bir yaşam alanı sağlıyor.",
             "price": "4.200.000 TL",
             "city": "İstanbul, Maltepe"
         },
         {
             "id": 5,
             "name": "TACİNDE 3+1 SATILIK ARA KAT LÜKS DAİRE",
-            "description": "Konut, İş Yeri, Arsa, Konut Projeleri, Bina, Devre Mülk, Turistik Alan",
+            "description": "Aksaray merkezde, tüm ihtiyaçlarınıza yakın bir konumda bulunan bu 3+1 ara kat daire, lüks iç tasarımı ve geniş odaları ile öne çıkıyor. Modern yaşam alanları, yüksek kaliteli malzemelerle döşenmiş olup, hem sakinlik hem de şehre yakınlık sunuyor. Konforlu ve prestijli bir yaşam alanı arayanlar için ideal.",
             "price": "3.400.000 TL",
             "city": "Aksaray, Merkez"
         },
         {
             "id": 6,
             "name": "EMSALSİZ FİYATA KREDİYE UYGUN 3+1 GENİŞ ARA KAT KUPON DAİRE",
-            "description": "Konut, İş Yeri, Arsa, Konut Projeleri, Bina, Devre Mülk, Turistik Alan",
+            "description": "Bursa'nın Mudanya ilçesinde yer alan bu geniş 3+1 ara kat daire, benzersiz fiyatı ve krediye uygun olmasıyla büyük bir fırsat sunuyor. Geniş ve aydınlık odalar, modern mutfak ve banyolar, her detayıyla konforlu bir yaşam alanı sağlıyor. Hem yatırım hem de konforlu yaşam için ideal.",
             "price": "2.100.000 TL",
             "city": "Bursa, Mudanya"
         },
         {
             "id": 7,
             "name": "BELİKDÜZÜ MEHAL YAPI YÜKSEK KİRA GETİRİLİ BAHÇELİ BAH.E KATI !!",
-            "description": "Konut, İş Yeri, Arsa, Konut Projeleri, Bina, Devre Mülk, Turistik Alan",
+            "description": "İstanbul'un Beylikdüzü ilçesinde, yüksek kira getirisi potansiyeline sahip, bahçeli ve modern tasarımlı bu daire yatırımcılar için büyük bir fırsat sunuyor. Bahçe katı olmanın avantajıyla, geniş yaşam alanı ve sunduğu huzurlu atmosferiyle hem aileler hem de kiracılar için ideal bir seçenek.",
             "price": "1.230.000 TL",
             "city": "İstanbul, Esenyurt"
         },
         {
             "id": 8,
             "name": "ACİLL 2.5+1 YÜKSEK GİRİŞ DAİRE",
-            "description": "Konut, İş Yeri, Arsa, Konut Projeleri, Bina, Devre Mülk, Turistik Alan",
+            "description": "Batman'ın merkezine yakın bir konumda yer alan bu 2.5+1 daire, acil satılık olup, uygun fiyatı ve pratik iç yapısıyla dikkat çekiyor. Yüksek giriş katındaki daire, hem yaşam alanı hem de potansiyel yatırım açısından avantaj sağlıyor. Hızlıca yerleşmek isteyenler için kaçırılmayacak bir fırsat.",
             "price": "2.100.000 TL",
             "city": "Batman, Merkez"
         },
         {
             "id": 9,
             "name": "ÖZEL FİYAT KREDİYE UYGUN KAMPÜS KARŞISI YATIRIMLIK 1+1",
-            "description": "Konut, İş Yeri, Arsa, Konut Projeleri, Bina, Devre Mülk, Turistik Alan",
+            "description": "İzmir Buca'da, üniversite kampüsüne yakın konumuyla ideal bir yatırım fırsatı sunan bu 1+1 daire, krediye uygun fiyatıyla büyük avantaj sağlıyor. Küçük ama fonksiyonel yaşam alanı, genç profesyoneller ve öğrenciler için mükemmel bir seçenek. Hem kira getirisi hem de değer artışı potansiyeli ile dikkat çekiyor.",
             "price": "1.450.000 TL",
             "city": "İzmir, Buca"
         }
